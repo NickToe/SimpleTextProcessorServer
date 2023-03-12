@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SimpleTextProcessorServer": {
+      "commandName": "Project",
+      "commandLineArgs": "--database test.db --port 5001"
+    }
+  }
+}
