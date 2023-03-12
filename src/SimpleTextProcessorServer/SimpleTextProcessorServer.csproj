@@ -15,7 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SimpleTextProcessorProtocol\SimpleTextProcessorProtocol\SimpleTextProcessorProtocol.csproj" />
+    <ProjectReference Include="..\SimpleTextProcessorProtocol\SimpleTextProcessorProtocol.csproj" />
   </ItemGroup>
+
 
 </Project>

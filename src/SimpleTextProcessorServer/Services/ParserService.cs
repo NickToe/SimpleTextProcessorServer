@@ -49,11 +49,11 @@ public class ParserService
                     }
                 }
             }
-
-            // Only keep words that appeared at least 3 times in the text
-            var list = wordCounter.AsParallel().Where(word => word.Value >= 3).Select(word => new WordDictionary() { Word = word.Key, Counter = word.Value }).ToList();
-
-            return list;
         }
+
+        // Only keep words that appeared at least 3 times in the text
+        var list = wordCounter.AsParallel().Where(word => word.Value >= 3).Select(word => new WordDictionary() { Word = word.Key, Counter = word.Value }).ToList();
+
+        return list;
     }
 }
